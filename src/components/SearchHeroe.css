@@ -1,0 +1,21 @@
+.searchHeroe {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.searchHeroe:hover {
+    opacity: 0.8;
+}
+
+.searchHeroe > img {
+    height: 100px;
+    width: 100px;
+}
+
+.searchHeroe > p {
+    margin-left: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}

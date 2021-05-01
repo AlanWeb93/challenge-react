@@ -1,0 +1,52 @@
+.home {
+    display: flex;
+    background-color: whitesmoke;
+    height: 100vh;
+    padding-top: 25px;
+}
+
+.home__list {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 10px;
+}
+
+.home__list > h4 {
+    text-align: center;
+    color: deepskyblue;
+}
+
+.home__list > p {
+    text-align: center;
+}
+
+.list__scroll {
+    height: 90vh;
+    overflow-y: scroll;
+}
+
+.home__search {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 10px;
+}
+
+.home__search > h4 {
+    text-align: center;
+    color: deepskyblue;
+}
+
+.search_container {
+    display: flex;
+    align-items: center;
+}
+
+.search_container > input {
+    outline-width: 0;
+    border: none;
+    flex: 1;
+    border-radius: 20px;
+    padding: 5px;
+}

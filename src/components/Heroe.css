@@ -1,0 +1,92 @@
+.heroe__container {
+    display: flex;
+    position: relative;
+    padding: 20px;
+    border-bottom: 1px solid deepskyblue;
+}
+
+.heroe__container:hover {
+    opacity: 0.8;
+}
+
+.heroe__container > img {
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.heroe__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.powerstats {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    line-height: 10px;
+}
+
+.close {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    z-index: -1;
+}
+
+.modal {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.modal__container {
+    width: 60vw;
+}
+
+.modal__header {
+    max-height: 300px;
+    width: 100%;
+    align-items: center;
+}
+
+.modal__header > img {
+    width: 100%;
+    height: 250px;
+}
+
+.modal__header > h3 {
+    position: fixed;
+    top: 260px;
+    color: white;
+}
+
+.modal__info {
+    background-color: white;
+}
+
+.modal__info > h4 {
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+.modal__info__description {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding-bottom: 10px;
+}
+
+.modal__info__description > div > h4 {
+    color: deepskyblue;
+}
+
+.modal__info__description > div > p > span {
+    color: deepskyblue;
+}
